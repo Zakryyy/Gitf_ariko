@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Canvas } from '@react-three/fiber';
-import Scene from './components/Scene';
-import HandTracker from './components/HandTracker';
+import Scene from './Scene';
+import HandTracker from './HandTracker';
 import { TreeState } from './types';
 
 const App: React.FC = () => {

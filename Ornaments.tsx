@@ -1,8 +1,8 @@
 import React, { useMemo, useRef, useLayoutEffect } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { CONFIG, COLORS, getRandomSpherePoint, getTreePoint } from '../constants';
-import { OrnamentType } from '../types';
+import { CONFIG, COLORS, getRandomSpherePoint, getTreePoint } from './constants';
+import { OrnamentType } from './types';
 
 interface OrnamentsProps {
   progress: number;

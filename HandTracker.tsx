@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { FilesetResolver, HandLandmarker } from "@mediapipe/tasks-vision";
-import { TreeState } from '../types';
+import { TreeState } from './types';
 
 interface HandTrackerProps {
   onStateChange: (state: TreeState | null) => void;

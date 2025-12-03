@@ -1,7 +1,7 @@
 import React, { useMemo, useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 import * as THREE from 'three';
-import { CONFIG, getRandomRainPoint, getTreePoint } from '../constants';
+import { CONFIG, getRandomRainPoint, getTreePoint } from './constants';
 
 const FoliageVertexShader = `
   uniform float uTime;

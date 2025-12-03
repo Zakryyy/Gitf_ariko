@@ -5,7 +5,7 @@ import { BlendFunction } from 'postprocessing';
 import { useFrame } from '@react-three/fiber';
 import Foliage from './Foliage';
 import Ornaments from './Ornaments';
-import { TreeState } from '../types';
+import { TreeState } from './types';
 
 interface SceneProps {
   treeState: TreeState;
